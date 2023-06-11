@@ -108,7 +108,7 @@ for epoch in range(1, 10):
         print('------ temperature:', temperature)
         sys.stdout.write(generated_text)
 
-        # генерируем 200 символов
+        # генерируем 200 символовЯ
         for i in range(200):
             sampled = np.zeros((1, maxlen, len(chars)))
             for t, char in enumerate(generated_text):
